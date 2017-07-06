@@ -1,4 +1,4 @@
-chrome.omnibox.onInputChanged.addListener(
+inchrome.omnibox.onInputChanged.addListener(
   function(text, suggest) {
     console.log('inputChanged: ' + text);
     suggest([
